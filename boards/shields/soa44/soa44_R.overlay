@@ -101,4 +101,4 @@
     status = "okay";
     chain-length = <1>;
     // Pre-set WS2812 to red color (0xFF0000) for right side identification
-};j
+};
