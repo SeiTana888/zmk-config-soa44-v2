@@ -1,4 +1,4 @@
-#include "soa44.dtsi"
+j#include "soa44.dtsi"
 #include <dt-bindings/zmk/input_transform.h>
 #include <dt-bindings/input/input-event-codes.h>
 #include <input/processors.dtsi>
@@ -94,6 +94,9 @@
         force-awake;
         wakeup-source;
     };
+};
+&zip_temp_layer {
+    require-prior-idle-ms = <300>;
 };
 
 // Override led_strip to set red color for right side
