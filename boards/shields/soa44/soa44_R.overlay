@@ -95,6 +95,9 @@
         wakeup-source;
     };
 };
+&zip_temp_layer {
+    require-prior-idle-ms = <300>;
+};
 
 // Override led_strip to set red color for right side
 &led_strip {
