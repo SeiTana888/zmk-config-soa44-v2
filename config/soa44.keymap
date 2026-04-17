@@ -63,7 +63,7 @@
 
         default {
             bindings = <
-&kp ESCAPE      &kp Q         &kp W         &kp E     &kp R        &kp T          &kp Y          &kp U        &kp I  &kp O      &kp P       &kp EQUAL
+&kp ESCAPE      &kp Q         &kp W         &kp E     &kp R        &kp T          &kp Y          &kp U        &kp I  &kp O      &kp P       &lt 6 EQUAL
 &mt LCTRL TAB   &kp A         &kp S         &kp D     &kp F        &kp G          &kp H          &kp J        &kp K  &kp L      &lt 5 SEMI  &kp MINUS
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C     &kp V        &kp B          &kp SQT        &kp N        &kp M  &kp COMMA  &kp DOT     &kp SLASH
                 &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &lt 3 SPACE  &kp LC(SPACE)  &kp BACKSPACE  &lt 2 ENTER                    &kp GRAVE
